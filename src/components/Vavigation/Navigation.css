@@ -1,0 +1,10 @@
+nav li a:hover {
+    color: #ff0000;
+}
+a .logo{
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+.mobile-nav {
+    @apply block md:hidden fixed top-16 py-2 w-full h-full bg-blue-400 duration-500;
+} 
