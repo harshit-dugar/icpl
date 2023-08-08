@@ -3,7 +3,7 @@ import {AiFillLinkedin} from "react-icons/ai";
 
 function Hero() {
     return (
-        <div className='px-5 text-white py-32'>
+        <div className='px-5 mx-4 text-white py-32 bg-blue-800 rounded-t-3xl'>
             <div className="container mx-auto flex items-center justify-center">
                 <div className="pb-5 md:pb-0 flex flex-col items-center ">
                     <h1 className="text-5xl lg:text-7xl font-bold py-3">

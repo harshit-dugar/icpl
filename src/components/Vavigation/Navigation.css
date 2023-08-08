@@ -1,4 +1,5 @@
-nav li a:hover {
+nav li a:hover ,
+nav li button:hover{
     color: #ff0000;
 }
 a .logo{
@@ -6,5 +7,5 @@ a .logo{
     filter: contrast(1);
 }
 .mobile-nav {
-    @apply block md:hidden fixed top-16 py-2 w-full h-full bg-blue-400 duration-500;
+    @apply block md:hidden fixed top-1 py-20 px-16 w-full h-full bg-white duration-500;
 } 

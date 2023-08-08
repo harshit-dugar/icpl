@@ -1,4 +1,4 @@
-export const services = [
+const services = [
     {
         title:"Web Development",
         description:"Our Websites are unique and eye-catching, designed by using latest web designing tools like Web 2.0, which empowers our customer to represent themselves online confidently in the global arena."
@@ -16,3 +16,15 @@ export const services = [
         description:"We provide solutions for corporate It suplies in our company for home based or work based requirements of customers such as Desktop,Laptop etc."
     }
 ];
+const serviceImages = [
+    {
+        id:'1',
+        img:'../src/assets/Images/WebsiteSolutions.png'
+    },
+    {
+        id:'2',
+        img:'../src/assets/Images/WebsiteSolutions.png'
+    }
+]
+
+export {services,serviceImages};
