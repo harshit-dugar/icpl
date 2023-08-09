@@ -14,12 +14,12 @@ function Navigation() {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <div className='flex justify-between items-center px-7 py-6 w-full'>
+        <div className='flex justify-between items-center px-7 py-6 w-90% sticky top-1 z-10 bg-white opacity-75 rounded-lg'>
             <a href='/'>
                 <img src={Logo} alt='Logo_ICP' className='logo h-12 w-25'/>
             </a>
             <nav className="hidden md:block">
-                <ul className="flex text-blue-800">
+                <ul className="flex text-indigo-900">
                     <li className='ml-5 text-lg'>
                         <Menu
                             animate={{
@@ -51,8 +51,8 @@ function Navigation() {
                 </ul>
             </nav>
             {/* Mobile */}
-            <nav className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
-                <ul className="flex flex-col text-blue-800">
+            <nav className={!toggle ? "mobile-nav z-20 left-[-100%]" : "mobile-nav left-0"}>
+                <ul className="flex flex-col text-indigo-900">
                     <li className='py-5'><a href="/">Home</a></li>
                     <li className='py-5'><a href="/#service">Services</a></li>
                     <li className='py-5'><a href="/#training">Training</a></li>
