@@ -16,15 +16,5 @@ const services = [
         description:"We provide solutions for corporate It suplies in our company for home based or work based requirements of customers such as Desktop,Laptop etc."
     }
 ];
-const serviceImages = [
-    {
-        id:'1',
-        img:'../src/assets/Images/WebsiteSolutions.png'
-    },
-    {
-        id:'2',
-        img:'../src/assets/Images/WebsiteSolutions.png'
-    }
-]
 
-export {services,serviceImages};
+export {services};

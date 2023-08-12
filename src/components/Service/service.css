@@ -5,3 +5,8 @@
     color: rgb(26, 35, 126);
     transition: 0.3s;
 }
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}

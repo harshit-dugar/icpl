@@ -8,38 +8,40 @@ import service6 from "../assets/Images/NetworkingSolutions.png"
 
 function ServiceCarousel() {
     return (
-        <Carousel autoplay autoplayDelay={4000} loop transition={{ duration: 2 }} className="rounded-xl">
-            <img
-                src={service1}
-                alt="img"
-                className="h-full w-full object-cover"
-            />
-            <img
-                src={service2}
-                alt="image2"
-                className="h-full w-full object-cover"
-            />
-            <img
-                src={service3}
-                alt="image3"
-                className="h-full w-full object-cover"
-            />
-            <img
-                src={service4}
-                alt="image3"
-                className="h-full w-full object-cover"
-            />
-            <img
-                src={service5}
-                alt="image3"
-                className="h-full w-full object-cover"
-            />
-            <img
-                src={service6}
-                alt="image3"
-                className="h-full w-full object-cover"
-            />
-        </Carousel>
+        <div className="mx-4 mb-5">
+            <Carousel autoplay autoplayDelay={4000} loop transition={{ duration: 2 }} className="rounded-xl">
+                <img
+                    src={service1}
+                    alt="img"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={service2}
+                    alt="image2"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={service3}
+                    alt="image3"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={service4}
+                    alt="image3"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={service5}
+                    alt="image3"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={service6}
+                    alt="image3"
+                    className="h-full w-full object-cover"
+                />
+            </Carousel>
+        </div>
     );
 }
 

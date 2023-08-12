@@ -8,6 +8,7 @@ import {
     MenuList,
     MenuItem,
 } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     const [toggle, setToggle] = useState(false);
@@ -40,13 +41,13 @@ function Navigation() {
                         </Menu>
                     </li>
                     <li className='ml-5 text-lg'>
-                        <a href="/#training">Training</a>
+                        <Link to="/training">Training</Link>
                     </li>
                     <li className='ml-5 text-lg'>
-                        <a href="/#about">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li className='ml-5 text-lg'>
-                        <a href="/#contact">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </nav>
@@ -55,9 +56,9 @@ function Navigation() {
                 <ul className="flex flex-col text-indigo-900">
                     <li className='py-5'><a href="/">Home</a></li>
                     <li className='py-5'><a href="/#service">Services</a></li>
-                    <li className='py-5'><a href="/#training">Training</a></li>
-                    <li className='py-5'><a href="/#about">About</a></li>
-                    <li className='py-5'><a href="/#contact">Contact</a></li>
+                    <li className='py-5'><Link to="/training">Training</Link></li>
+                    <li className='py-5'><Link to="/about">About</Link></li>
+                    <li className='py-5'><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <button onClick={handleToggle} className="block md:hidden z-30">
