@@ -47,7 +47,7 @@ function Navigation() {
                         <Link to="/about">About</Link>
                     </li>
                     <li className='ml-5 text-lg'>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contactus">Contact</Link>
                     </li>
                 </ul>
             </nav>

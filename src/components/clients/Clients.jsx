@@ -4,7 +4,7 @@ import { clients } from '../../clients'
 function Clients() {
     return (
         <div className='flex flex-col items-center md:justify-between px-5 mx-4 text-indigo-900'>
-            <h2 className='md:text-8xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Our Clients</h2>
+            <h2 className='md:text-6xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Our Clients</h2>
             <div className='grid sm:grid-cols-3 grid-cols-2 justify-center items-center my-5'>
                 {clients.map((client) => (
                     <div key={client.id} className=''>

@@ -1,8 +1,17 @@
 import React from 'react'
+import Navigation from '../components/Vavigation/Navigation'
+import ServiceCarousel from '../components/ServiceCarousel'
+import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer/Footer'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+      <Navigation />
+      <ServiceCarousel />
+      <ContactUs />
+      <Footer />
+    </>
   )
 }
 

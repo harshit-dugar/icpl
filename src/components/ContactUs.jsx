@@ -5,7 +5,7 @@ import { AiFillMail } from 'react-icons/ai'
 function ContactUs() {
     return (
         <div className='flex flex-col items-center md:justify-between px-5 mx-4 text-indigo-900'>
-            <h2 className='md:text-8xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Contact Us</h2>
+            <h2 className='md:text-6xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Contact Us</h2>
             <p className='md:text-xl text-lg text-center mb-5'><span className='text-red-800'>Let's</span> work together</p>
             <div className='flex sm:flex-row flex-col justify-around items-center mb-16 w-full'>
                 <div className=''>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Service() {
     return (
         <div id='service' className='flex flex-col items-center md:justify-between px-5 mx-4 text-indigo-900'>
-            <h2 className='md:text-8xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Our Services</h2>
+            <h2 className='md:text-6xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Our Services</h2>
             <ServiceCarousel />
             <div className="container m-8 flex flex-col items-center md:justify-between">
                 <div className='container mx-auto grid md:grid-cols-2 gap-10'>
