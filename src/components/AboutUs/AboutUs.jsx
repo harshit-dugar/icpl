@@ -3,7 +3,7 @@ import React from 'react'
 function AboutUs() {
     return (
         <div className='container flex flex-col items-center justify-start px-5 mx-4'>
-            <h2 className='md:text-7xl text-5xl text-indigo-900 font-bold mb-5 border-b-[5px] border-red-900'>About Us</h2>
+            <h2 className='md:text-6xl text-5xl text-indigo-900 font-bold mb-5 border-b-[5px] border-red-900'>About Us</h2>
             <div className='flex flex-col justify-start items-start my-5'>
                 <h3 className='text-2xl text-red-900 my-4'>Company</h3>
                 <p className='text-xl text-blue-900 max-w-5xl text-justify mb-4'>Informatic Computech Pvt.Ltd. mission is to challenge how organizations engage software 

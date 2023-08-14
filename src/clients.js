@@ -5,6 +5,13 @@ import ebodhi from "./assets/clients/ebodhi.png"
 import extensible from "./assets/clients/extensible.png";
 import niam from "./assets/clients/niam.png";
 import palm from "./assets/clients/palm.png";
+import reil from "./assets/clients/reil.png";
+import rito from "./assets/clients/Rito.png";
+import sar from "./assets/clients/sar.png";
+import shell from "./assets/clients/shell.png";
+import shubhan from "./assets/clients/shubhan.png";
+import svg from "./assets/clients/svg.png";
+import vertex from "./assets/clients/Vertex.png";
 
 export const clients = [
     {
@@ -41,5 +48,40 @@ export const clients = [
         id: 7,
         link: "",
         image:palm
-    }
+    },
+    {
+        id: 8,
+        link: "",
+        image:reil
+    },
+    {
+        id: 9,
+        link: "",
+        image:rito
+    },
+    {
+        id: 10,
+        link: "",
+        image:sar
+    },
+    {
+        id: 11,
+        link: "",
+        image:shell
+    },
+    {
+        id: 12,
+        link: "",
+        image:shubhan
+    },
+    {
+        id: 13,
+        link: "",
+        image:svg
+    },
+    {
+        id: 14,
+        link: "",
+        image:vertex
+    },
 ];
