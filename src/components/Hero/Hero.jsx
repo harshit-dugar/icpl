@@ -15,7 +15,7 @@ function Hero() {
                     </p>
                     <div className="py-5">
                         <a href="https://in.linkedin.com/company/informatic-computech-p-ltd"
-                        className="pr-4 inline-block text-accent hover:text-white"
+                        className="pr-4 inline-block text-accent hover:text-red-900"
                         >
                             {" "}
                             <AiFillLinkedin size={40} />{" "}

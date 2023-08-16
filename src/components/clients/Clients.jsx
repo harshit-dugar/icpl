@@ -7,7 +7,7 @@ function Clients() {
             <h2 className='md:text-6xl text-5xl font-bold mb-5 border-b-[5px] border-red-900'>Our Clients</h2>
             <div className='grid sm:grid-cols-3 grid-cols-2 gap-3 justify-center items-center my-10'>
                 {clients.map((client) => (
-                    <div key={client.id} className=''>
+                    <div key={client.id} className="hover:transition-all">
                         <img src={client.image} alt={client.id} className='h-20 md:h-40 m-4 sm:mx-16 mx-5' />
                     </div>
                 ))}

@@ -17,7 +17,7 @@ function Navigation() {
     return (
         <div className='flex justify-between items-center px-7 py-6 w-90% sticky top-1 z-10 bg-white opacity-75 rounded-lg'>
             <a href='/'>
-                <img src={Logo} alt='Logo_ICP' className='logo h-12 w-25'/>
+                <img src={Logo} alt='Logo_ICP' className='logo h-12 w-25 z-30'/>
             </a>
             <nav className="hidden md:block">
                 <ul className="flex text-indigo-900">
@@ -28,7 +28,7 @@ function Navigation() {
                                 unmount: { y: 25 },
                             }} allowHover>
                             <MenuHandler>
-                                <button>Services</button>
+                                <button className='hover:scale-125'>Services</button>
                             </MenuHandler>
                             <MenuList>
                                 <MenuItem>Web Development</MenuItem>
@@ -40,19 +40,22 @@ function Navigation() {
                             </MenuList>
                         </Menu>
                     </li>
-                    <li className='ml-5 text-lg'>
+                    <li className='ml-5 text-lg hover:scale-125'>
                         <Link to="/training">Training</Link>
                     </li>
-                    <li className='ml-5 text-lg'>
+                    <li className='ml-5 text-lg hover:scale-125'>
                         <Link to="/about">About</Link>
                     </li>
-                    <li className='ml-5 text-lg'>
+                    <li className='ml-5 text-lg hover:scale-125'>
                         <Link to="/contactus">Contact</Link>
                     </li>
                 </ul>
             </nav>
             {/* Mobile */}
             <nav className={!toggle ? "mobile-nav z-20 left-[-100%]" : "mobile-nav left-0"}>
+                <a href='/'>
+                    <img src={Logo} alt='Logo_ICP' className='logo h-12 w-25 z-30'/>
+                </a>
                 <ul className="flex flex-col text-indigo-900">
                     <li className='py-5'><a href="/">Home</a></li>
                     <li className='py-5'><a href="/#service">Services</a></li>

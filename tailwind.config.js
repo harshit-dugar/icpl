@@ -6,7 +6,11 @@ module.exports = withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      cursor: {
+        'fancy': 'url(hand.cur), pointer',
+      }
+    },
   },
   plugins: [],
 })
