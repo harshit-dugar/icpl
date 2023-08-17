@@ -15,7 +15,7 @@ function Service() {
                         return(
                             <div className='bg-indigo-900 rounded-2xl text-white flex flex-col items-center hower'>
                                 <h3 className='py-5 md:text-4xl text-2xl'>{service.title}</h3>
-                                <p className='py-5 md:text-2xl text-xl max-w-lg mx-2 text-justify'>{service.description}</p>
+                                <p className='py-5 md:text-2xl text-lg px-3 sm:max-w-lg mx-2 text-justify'>{service.description}</p>
                                 <Link to='/service' className='border-b-2 border-red-900 mb-4'>Read more..</Link>
                             </div>
                         )

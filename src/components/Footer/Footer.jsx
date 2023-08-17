@@ -17,8 +17,8 @@ function Footer() {
                             <Link to='/training' className='text-white hover:text-red-900 m-5 hover:scale-125'>training</Link>
                         </div>
                     </div>
-                    <div className='mt-10 flex w-full flex-col items-center justify-center border-t border-red-900 py-4 md:flex-row md:justify-center'>
-                        <div className='flex sm:flex-row flex-col justify-center items-center'>
+                    <div className='mt-10 flex w-full flex-col justify-center border-t border-red-900 py-4 md:flex-row md:justify-center'>
+                        <div className='flex sm:flex-row flex-col justify-end items-center'>
                             <a href="https://in.linkedin.com/company/informatic-computech-p-ltd"
                             className="pr-8 inline hover:text-red-900"
                             >

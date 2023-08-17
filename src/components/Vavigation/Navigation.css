@@ -7,5 +7,5 @@ a .logo{
     filter: contrast(1);
 }
 .mobile-nav {
-    @apply block md:hidden fixed top-1 py-5 px-16 w-full h-full bg-blue-200 z-10 duration-500;
+    @apply block md:hidden fixed top-1 py-5 px-16 w-full h-full bg-indigo-100 duration-500;
 } 
