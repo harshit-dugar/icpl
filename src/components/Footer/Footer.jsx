@@ -14,7 +14,7 @@ function Footer() {
                         <div className="flex md:flex-row flex-col justify-center items-center mx-4">
                             <Link to='/' className='text-white hover:text-red-900 hover:scale-125 m-5'>Home</Link>
                             <Link to='/about' className='text-white hover:text-red-900 m-5 hover:scale-125'>About</Link>
-                            <Link to='/training' className='text-white hover:text-red-900 m-5 hover:scale-125'>training</Link>
+                            <Link to='/training' className='text-white hover:text-red-900 m-5 hover:scale-125'>Training</Link>
                         </div>
                     </div>
                     <div className='mt-10 flex w-full flex-col justify-center border-t border-red-900 py-4 md:flex-row md:justify-center'>

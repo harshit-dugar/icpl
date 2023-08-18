@@ -14,9 +14,9 @@ function Service() {
                     {services.map((service)=>{
                         return(
                             <div className='bg-indigo-900 rounded-2xl text-white flex flex-col items-center hower'>
-                                <h3 className='py-5 md:text-4xl text-2xl'>{service.title}</h3>
+                                <h3 className='py-5 md:text-4xl text-xl'>{service.title}</h3>
                                 <p className='py-5 md:text-2xl text-lg px-3 sm:max-w-lg mx-2 text-justify'>{service.description}</p>
-                                <Link to='/service' className='border-b-2 border-red-900 mb-4'>Read more..</Link>
+                                <Link to='/service' className='border-b-2 border-red-900 mb-4 text-lg'>Read more..</Link>
                             </div>
                         )
                     })}
