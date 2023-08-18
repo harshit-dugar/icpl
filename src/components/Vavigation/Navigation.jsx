@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navigation.css"
-import Logo from "../../assets/Images/ICPL_Logo.jpeg"
+import Logo from "../../assets/Images/ICPL_Logo.png"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import {
     Menu,
