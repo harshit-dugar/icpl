@@ -30,7 +30,7 @@ function Navigation() {
                             <MenuHandler>
                                 <button className='hover:scale-125'>Services</button>
                             </MenuHandler>
-                            <MenuList>
+                            <MenuList className='bg-indigo-100'>
                                 <MenuItem>Web Development</MenuItem>
                                 <MenuItem>Call Center Solution</MenuItem>
                                 <MenuItem>Network Solution</MenuItem>
@@ -61,7 +61,7 @@ function Navigation() {
                     <li className='py-5'><Link to="/service">Services</Link></li>
                     <li className='py-5'><Link to="/training">Training</Link></li>
                     <li className='py-5'><Link to="/about">About</Link></li>
-                    <li className='py-5'><Link to="/contact">Contact</Link></li>
+                    <li className='py-5'><Link to="/contactus">Contact</Link></li>
                 </ul>
             </nav>
             <button onClick={handleToggle} className="block md:hidden z-30">
