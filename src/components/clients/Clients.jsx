@@ -1,5 +1,7 @@
 import React from 'react'
 import { clients } from '../../clients'
+import Marquee from 'react-fast-marquee'
+import { partners } from '../../clients'
 
 function Clients() {
     return (
@@ -11,6 +13,15 @@ function Clients() {
                         <img src={client.image} alt={client.id} className='h-20 md:h-40 m-4 sm:mx-16 mx-5' />
                     </div>
                 ))}
+            </div>
+            <div className=''>
+                <Marquee speed={100} gradient={false} pauseOnHover={true} className='w-full'>
+                    {partners.map((partner) => (
+                        <div key={partner.id} className="hover:transition-all"> 
+                            <img src={partner.image} alt={partner.id} className='h-20 md:h-40 m-4 sm:mx-16 mx-5' />
+                        </div>
+                    ))}
+                </Marquee>                            
             </div>
         </div>
     )

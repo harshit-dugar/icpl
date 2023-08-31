@@ -12,8 +12,13 @@ import shell from "./assets/clients/shell.png";
 import shubhan from "./assets/clients/shubhan.png";
 import svg from "./assets/clients/svg.png";
 import vertex from "./assets/clients/Vertex.png";
+import cisco from "./assets/clients/cisco.png";
+import intel from "./assets/clients/intel.png";
+import ibm from "./assets/clients/ibm.png";
+import microsoft from "./assets/clients/microsoft.png";
+import symentic from "./assets/clients/symentic.png";
 
-export const clients = [
+const clients = [
     {
         id: 1,
         link: "",
@@ -85,3 +90,33 @@ export const clients = [
         image:vertex
     },
 ];
+
+const partners = [
+    {
+        id: 1,
+        link: "",
+        image:cisco
+    },
+    {
+        id: 2,
+        link: "",
+        image:intel
+    },
+    {
+        id: 3,
+        link: "",
+        image:ibm
+    },
+    {
+        id: 4,
+        link: "",
+        image:microsoft
+    },
+    {
+        id: 5,
+        link: "",
+        image:symentic
+    }
+]
+
+export {clients ,partners}

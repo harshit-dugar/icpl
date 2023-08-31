@@ -2,12 +2,6 @@ import React, { useState } from 'react'
 import "./Navigation.css"
 import Logo from "../../assets/Images/ICPL_Logo.png"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import {
-    Menu,
-    MenuHandler,
-    MenuList,
-    MenuItem,
-} from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
 
 function Navigation() {
@@ -21,24 +15,8 @@ function Navigation() {
             </a>
             <nav className="hidden md:block">
                 <ul className="flex text-indigo-900">
-                    <li className='ml-5 text-lg'>
-                        <Menu
-                            animate={{
-                                mount: { y: 0 },
-                                unmount: { y: 25 },
-                            }} allowHover>
-                            <MenuHandler>
-                                <button className='hover:scale-125'>Services</button>
-                            </MenuHandler>
-                            <MenuList className='bg-indigo-100'>
-                                <MenuItem>Web Development</MenuItem>
-                                <MenuItem>Call Center Solution</MenuItem>
-                                <MenuItem>Network Solution</MenuItem>
-                                <MenuItem>Corporate IT Supplies</MenuItem>
-                                <MenuItem>SMS Solutions</MenuItem>
-                                <MenuItem>Corporate Solutions</MenuItem>
-                            </MenuList>
-                        </Menu>
+                    <li className='ml-5 text-lg hover:scale-125'>
+                        <Link to="/service">Services</Link> 
                     </li>
                     <li className='ml-5 text-lg hover:scale-125'>
                         <Link to="/training">Training</Link>
